@@ -53,7 +53,7 @@ class RAGPipeline:
         ]
 
         answer = self._llm.generate(question, context)
-        confidence = sum(r["score"] for r in results) / len(results)
+        confidence = max(r["score"] for r in results)
 
         return {
             "answer": answer,
