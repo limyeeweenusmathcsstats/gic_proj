@@ -1,0 +1,102 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What are the geographic regions where Microsoft generates the most revenue?
+
+ANSWER
+------
+The context does not provide a detailed breakdown of geographic regions beyond the United States and "Other countries". It only mentions that no sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2024, 2023, or 2022, and provides revenue figures for the United States and "Other countries" as a whole. Therefore, the information is not sufficient to determine the specific geographic regions where Microsoft generates the most revenue beyond the United States.
+
+CONFIDENCE : 0.0236
+
+SOURCES
+-------
+[1] Page 94  |  microsoft.pdf
+    Score   : 0.0236
+    Content : PART II
+Item 8
+No sales to an individual customer or country other than the United States accounted for more than 10% of revenue
+for fiscal years 2024, 2023, or 2022. Revenue, classified by the major geographic areas in which our customers were
+located, was as follows:
+(In millions)
+Year Ended June 30, 2024 2023 2022
+United States (a) $124,704 $ 106,744 $ 100,218
+Other countries 120,418 105,171 98,052
+Total $245,122 $ 211,915 $ 198,270
+(a) Includes billings to OEMs and certain multinational organizations because of the nature of these businesses and
+the impracticability of determining the geographic source of the revenue.
+Revenue, classified by significant product and service offerings, was as follows:
+(In millions)
+Year Ended June 30, 2024 2023 2022
+Server products and cloud services $ 97,726 $ 79,970 $ 67,350
+Office products and cloud services 54,875 48,848 44,970
+Windows 23,244 21,507 24,732
+Gaming 21,503 15,466 16,230
+LinkedIn 16,372 14,989 13,631
+
+[2] Page 39  |  microsoft.pdf
+    Score   : 0.0177
+    Content : supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing,
+marketing, and selling our other products and services; and income taxes.
+Highlights from fiscal year 2024 compared with fiscal year 2023 included:
+• Microsoft Cloud revenue increased 23% to $137.4 billion.
+• Office Commercial products and cloud services revenue increased 14% driven by Office 365 Commercial
+growth of 16%.
+• Office Consumer products and cloud services revenue increased 4% and Microsoft 365 Consumer
+subscribers grew to 82.5 million.
+• LinkedIn revenue increased 9%.
+• Dynamics products and cloud services revenue increased 19% driven by Dynamics 365 growth of 24%.
+• Server products and cloud services revenue increased 22% driven by Azure and other cloud services
+growth of 30%.
+• Windows revenue increased 8% with Windows original equipment manufacturer licensing (“Windows OEM”)
+
+[3] Page 41  |  microsoft.pdf
+    Score   : 0.0033
+    Content : are calculated based on financial results prepared in accordance with accounting principles generally accepted in the
+United States of America (“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.
+In the first quarter of fiscal year 2024, we made updates to the presentation and method of calculation for certain
+metrics, revising our Microsoft Cloud revenue metric to include revenue growth and expanding our Microsoft 365
+Consumer subscribers metric to include Microsoft 365 Basic subscribers, aligning with how we manage our business.
+Commercial
+Our commercial business primarily consists of Server products and cloud services, Office Commercial, Windows
+Commercial, the commercial portion of LinkedIn, Enterprise and partner services, and Dynamics. Our commercial
+metrics allow management and investors to assess the overall health of our commercial business and include leading
+indicators of future performance.
+
+[4] Page 13  |  microsoft.pdf
+    Score   : 0.0012
+    Content : • Changes in inventory levels in the OEM channel.
+• Pricing changes and promotions, pricing variation that occurs when the mix of devices manufactured shifts
+from local and regional system builders to large multinational OEMs, and different pricing of Windows
+versions licensed.
+• Constraints in the supply chain of device components.
+• Piracy.
+Windows Commercial revenue, which includes volume licensing of the Windows operating system and Windows cloud
+services such as Microsoft Defender for Endpoint, is affected mainly by the demand from commercial customers for
+Microsoft 365 and our advanced security offerings. Windows Commercial revenue often reflects the number of
+information workers in a licensed enterprise and is relatively independent of the number of PCs sold in a given year.
+Patent licensing includes our programs to license patents we own for use across a broad array of technology areas,
+including mobile devices and cloud offerings.
+
+[5] Page 45  |  microsoft.pdf
+    Score   : 0.0007
+    Content : PART II
+Item 7
+• Gross margin increased $11.6 billion or 19% driven by growth in Azure. Gross margin percentage
+decreased slightly. Excluding the impact of the change in accounting estimate, gross margin percentage
+increased slightly primarily driven by improvement in Azure, inclusive of scaling our AI infrastructure, offset
+in part by sales mix shift to Azure.
+• Operating expenses decreased slightly primarily driven by the prior year Q2 charge, offset in part by
+investments in Azure.
+More Personal Computing
+Revenue increased $7.3 billion or 13%.
+• Windows revenue increased $1.7 billion or 8% driven by growth in Windows Commercial and Windows
+OEM. Windows Commercial products and cloud services revenue increased 11% driven by demand for
+Microsoft 365. Windows OEM revenue increased 7%.
+• Gaming revenue increased $6.0 billion or 39% driven by growth in Xbox content and services. Xbox content
+and services revenue increased 50% driven by 44 points of net impact from the Activision Blizzard
+
+============================================================

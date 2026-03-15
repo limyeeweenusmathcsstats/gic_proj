@@ -1,0 +1,90 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What partnerships or collaborations are highlighted in the document?
+
+ANSWER
+------
+The document highlights the following partnerships or collaborations:
+
+1. Microsoft Partner Network: a program that assists customers in developing, deploying, and managing Microsoft server solutions and other services.
+2. Microsoft Cloud Solution Provider Program: a program that offers customers an easy way to license cloud services in combination with value-added services offered by systems integrators, managed services providers, or cloud providers.
+3. Partnerships with diverse-owned banking partners and asset managers to catalyze growth and industry participation.
+4. Partnerships with Black and African American-owned small businesses, with a commitment of $150 million in funding.
+5. The TEALS (Technology Education and Learning Support) program, which partners with nearly 1,500 volunteers to reach nearly 550 high schools across 21 racial equity expansion regions.
+
+CONFIDENCE : 0.0013
+
+SOURCES
+-------
+[1] Page 124  |  microsoft.pdf
+    Score   : 0.0013
+    Content : guidance thereunder, or any agreement (including any intergovernmental agreement) entered
+into in connection therewith; or
+(j) any combination of items (a), (b), (c), (d), (e), (f), (g), (h) and (i);
+nor will we pay any additional amounts to any beneficial owner or holder of notes who is a fiduciary
+or partnership to the extent that a beneficiary or settlor with respect to that fiduciary or a member of
+that partnership or a beneficial owner thereof would not have been entitled to the payment of those
+additional amounts had that beneficiary, settlor, member or beneficial owner been the beneficial
+owner of those notes.
+As used in the preceding paragraph, “Non-U.S. Person” means any corporation, partnership,
+individual or fiduciary that is, for United States federal income tax purposes, a foreign corporation, a
+non-resident alien individual who has not made a valid election to be treated as a United States
+
+[2] Page 11  |  microsoft.pdf
+    Score   : 0.0012
+    Content : Enterprise and Partner Services
+Enterprise and Partner Services, including Enterprise Support Services, Industry Solutions, Nuance professional
+services, Microsoft Partner Network, and Learning Experience, assist customers in developing, deploying, and
+managing Microsoft server solutions, Microsoft desktop solutions, and Nuance conversational AI and ambient
+10
+
+[3] Page 18  |  microsoft.pdf
+    Score   : 0.0002
+    Content : PART I
+Item 1
+Open Value
+Open Value agreements are a simple, cost-effective way to acquire the latest Microsoft technology. These agreements
+are designed for small and medium organizations that want to license cloud services and on-premises software over
+a three-year period. Under Open Value agreements, organizations can elect to purchase perpetual licenses or
+subscribe to licenses and SA is included.
+Select Plus
+A Select Plus agreement is designed for government and academic organizations to acquire on-premises licenses at
+any affiliate or department level, while realizing advantages as one organization. Organizations purchase perpetual
+licenses and SA is optional.
+Partner Programs
+The Microsoft Cloud Solution Provider Program offers customers an easy way to license the cloud services they need
+in combination with the value-added services offered by their systems integrator, managed services provider, or cloud
+
+[4] Page 8  |  microsoft.pdf
+    Score   : 0.0002
+    Content : Education and Learning Support (“TEALS”) program to reach nearly 550 high schools across 21 racial equity expansion
+regions with the support of nearly 1,500 volunteers, 12% of whom identify as Black or African American.
+We have committed $150 million in Minority Depository Institutions and funds supporting Black and African American-
+owned small businesses. These commitments drive sustained impact by directly enabling an increase of funds into
+local communities, improving diverse, small-business access to capital, and increasing skill development. We continue
+to partner with diverse-owned banking partners and asset managers to catalyze growth and industry participation.
+Additionally, we enriched our supplier pipeline, achieving our goal to spend $500 million with double the number of
+Black- and African American-owned suppliers. We have also provided 162 low- or no-interest loans to our small to
+medium-sized partners through our Partner Capital Fund.
+
+[5] Page 4  |  microsoft.pdf
+    Score   : 0.0001
+    Content : statements, whether because of new information, future events, or otherwise.
+PART I
+ITEM 1. BUSINESS
+GENERAL
+Embracing Our Future
+Microsoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available
+broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to
+achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving
+needs of our customers. From infrastructure and data, to business applications and collaboration, we provide unique,
+differentiated value to customers. We strive to create local opportunity, growth, and impact in every country around the
+world.
+We have entered a new age of AI that will fundamentally transform productivity for every individual, organization, and
+industry on earth, while helping us address some of our most pressing challenges. Microsoft's AI offerings, including
+
+============================================================

@@ -1,0 +1,108 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What are the top three products or services by revenue, as listed in the report?
+
+ANSWER
+------
+The top three products or services by revenue are:
+
+1. Server products and cloud services: $97,726 million (in 2024)
+2. Office products and cloud services: $54,875 million (in 2024)
+3. Windows: $23,244 million (in 2024)
+
+These figures are based on the revenue classification by significant product and service offerings for the year ended June 30, 2024.
+
+CONFIDENCE : 0.9491
+
+SOURCES
+-------
+[1] Page 61  |  microsoft.pdf
+    Score   : 0.9491
+    Content : Revenue and expenses are translated at average rates of exchange prevailing during the year. Translation adjustments
+resulting from this process are recorded to other comprehensive income.
+Revenue
+Product Revenue and Service and Other Revenue
+Product revenue includes sales from operating systems, cross-device productivity and collaboration applications,
+server applications, business solution applications, desktop and server management tools, software development
+tools, video games, and hardware such as PCs, tablets, gaming and entertainment consoles, other intelligent devices,
+and related accessories.
+Service and other revenue includes sales from cloud-based solutions that provide customers with software, services,
+platforms, and content such as Office 365, Azure, Dynamics 365, and gaming; solution support; and consulting
+services. Service and other revenue also includes sales from online advertising and LinkedIn.
+60
+
+[2] Page 62  |  microsoft.pdf
+    Score   : 0.099
+    Content : and the individual components are not considered distinct, all revenue is recognized over the period in which the cloud
+services are provided.
+Revenue from search advertising is recognized when the advertisement appears in the search results or when the
+action necessary to earn the revenue has been completed. Revenue from consulting services is recognized as services
+are provided.
+Our hardware is generally highly dependent on, and interrelated with, the underlying operating system and cannot
+function without the operating system. In these cases, the hardware and software license are accounted for as a single
+performance obligation and revenue is recognized at the point in time when ownership is transferred to resellers or
+directly to end customers through retail stores and online marketplaces.
+Refer to Note 19 – Segment Information and Geographic Data for further information, including revenue by significant
+product and service offering.
+Significant Judgments
+
+[3] Page 94  |  microsoft.pdf
+    Score   : 0.0852
+    Content : PART II
+Item 8
+No sales to an individual customer or country other than the United States accounted for more than 10% of revenue
+for fiscal years 2024, 2023, or 2022. Revenue, classified by the major geographic areas in which our customers were
+located, was as follows:
+(In millions)
+Year Ended June 30, 2024 2023 2022
+United States (a) $124,704 $ 106,744 $ 100,218
+Other countries 120,418 105,171 98,052
+Total $245,122 $ 211,915 $ 198,270
+(a) Includes billings to OEMs and certain multinational organizations because of the nature of these businesses and
+the impracticability of determining the geographic source of the revenue.
+Revenue, classified by significant product and service offerings, was as follows:
+(In millions)
+Year Ended June 30, 2024 2023 2022
+Server products and cloud services $ 97,726 $ 79,970 $ 67,350
+Office products and cloud services 54,875 48,848 44,970
+Windows 23,244 21,507 24,732
+Gaming 21,503 15,466 16,230
+LinkedIn 16,372 14,989 13,631
+
+[4] Page 96  |  microsoft.pdf
+    Score   : 0.0559
+    Content : PART II
+Item 8
+Revenue Recognition – Refer to Note 1 to the financial statements
+Critical Audit Matter Description
+The Company recognizes revenue upon transfer of control of promised products or services to customers in an
+amount that reflects the consideration the Company expects to receive in exchange for those products or
+services. The Company offers customers the ability to acquire multiple licenses of software products and
+services, including cloud-based services, in its customer agreements through its volume licensing programs.
+Significant judgment is exercised by the Company in determining revenue recognition for certain customer
+agreements, and includes the following:
+• Determination of whether products and services are considered distinct performance obligations that should
+be accounted for separately versus together, such as software licenses and related services that are sold
+with cloud-based services.
+
+[5] Page 42  |  microsoft.pdf
+    Score   : 0.0448
+    Content : segment. These metrics provide strategic product insights which allow us to assess the performance across our
+commercial and consumer businesses. As we have diversity of target audiences and sales motions within the Windows
+business, we monitor metrics that are reflective of those varying motions.
+Windows OEM revenue growth Revenue from sales of Windows Pro and non-Pro licenses sold through
+the OEM channel
+Windows Commercial products and cloud Revenue from Windows Commercial products and cloud services,
+services revenue growth comprising volume licensing of the Windows operating system,
+Windows cloud services, and other Windows commercial offerings
+Devices revenue growth Revenue from Devices, including Surface, HoloLens, and PC
+accessories
+Xbox content and services revenue Revenue from Xbox content and services, comprising first-party content
+growth (such as Activision Blizzard) and third-party content, including games
+and in-game content; Xbox Game Pass and other subscriptions; Xbox
+
+============================================================

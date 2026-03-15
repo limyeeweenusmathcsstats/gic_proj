@@ -1,0 +1,85 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What is the dividend per share declared in the most recent financial statement?
+
+ANSWER
+------
+The dividend per share declared in the most recent financial statement (Fiscal Year 2024) is $3.00.
+
+CONFIDENCE : 0.9675
+
+SOURCES
+-------
+[1] Page 60  |  microsoft.pdf
+    Score   : 0.9675
+    Content : Balance, end of period (5,590 ) (6,343 ) (4,678 )
+Total stockholders’ equity $ 268,477 $ 206,223 $ 166,542
+Cash dividends declared per common share $ 3.00 $ 2.72 $ 2.48
+Refer to accompanying notes.
+59
+
+[2] Page 89  |  microsoft.pdf
+    Score   : 0.9133
+    Content : above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of
+$5.3 billion, $3.8 billion, and $4.7 billion for fiscal years 2024, 2023, and 2022, respectively.
+Dividends
+Our Board of Directors declared the following dividends:
+Dividend
+Declaration Date Record Date Payment Date Per Share Amount
+Fiscal Year 2024 (In millions)
+September 19, 2023 November 16, 2023 December 14, 2023 $ 0.75 $ 5,574
+November 28, 2023 February 15, 2024 March 14, 2024 0.75 5,573
+March 12, 2024 May 16, 2024 June 13, 2024 0.75 5,574
+June 12, 2024 August 15, 2024 September 12, 2024 0.75 5,575
+Total $ 3.00 $ 22,296
+Fiscal Year 2023
+September 20, 2022 November 17, 2022 December 8, 2022 $ 0.68 $ 5,066
+November 29, 2022 February 16, 2023 March 9, 2023 0.68 5,059
+March 14, 2023 May 18, 2023 June 8, 2023 0.68 5,054
+June 13, 2023 August 17, 2023 September 14, 2023 0.68 5,051
+Total $ 2.72 $ 20,230
+
+[3] Page 50  |  microsoft.pdf
+    Score   : 0.6945
+    Content : Note 16 – Stockholders’ Equity of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further
+discussion.
+Dividends
+During fiscal years 2024 and 2023, our Board of Directors declared dividends totaling $22.3 billion and $20.2 billion,
+respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by
+our Board of Directors. Refer to Note 16 – Stockholders’ Equity of the Notes to Financial Statements (Part II, Item 8 of
+this Form 10-K) for further discussion.
+Other Planned Uses of Capital
+We will continue to invest in sales, marketing, product support infrastructure, and existing and advanced areas of
+technology, as well as acquisitions that align with our business strategy. Additions to property and equipment will
+49
+
+[4] Page 119  |  microsoft.pdf
+    Score   : 0.0045
+    Content : rights.
+Dividend Rights
+Subject to the rights of holders of outstanding shares of Preferred Stock, if any, the holders of
+Common Stock are entitled to receive dividends, if any, as may be declared from time to time by the
+Board of Directors in its discretion out of funds legally available for the payment of dividends.
+Liquidation Rights
+Subject to any preferential rights of outstanding shares of Preferred Stock, holders of Common Stock
+will share ratably in all assets legally available for distribution to our stockholders in the event of
+dissolution.
+Other Rights and Preferences
+Our Common Stock has no sinking fund or redemption provisions or preemptive, conversion or
+exchange rights. Holders of Common Stock may act by unanimous written consent.
+Listing
+The Common Stock is traded on The Nasdaq Stock Market LLC under the trading symbol “MSFT.”
+Description of the Notes
+The following description of our 3.125% Notes due 2028 (the “2028 Notes”) and our 2.625% Notes
+
+[5] Page 38  |  microsoft.pdf
+    Score   : 0.0015
+    Content : 10-K) for further discussion regarding share repurchases and dividends.
+ITEM 6. [RESERVED]
+37
+
+============================================================
