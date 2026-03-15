@@ -111,3 +111,6 @@ Seems like the LLM got the answer right
 But there are still some issues:
 1) somehow the evidence section is very messy with strange formatting and truncation
 2) Also page 88 is duplicated multiple times
+
+I think maybe its because of the tables that are somehow interfering with how the words are being read
+I shall try to deal with problem 1 first.

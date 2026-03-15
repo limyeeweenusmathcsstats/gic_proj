@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import List
 
-from langchain_community.document_loaders import PyMuPDFLoader
+from langchain_community.document_loaders import PDFPlumberLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
@@ -32,7 +32,7 @@ class DocumentProcessor:
             raise FileNotFoundError(f"PDF file not found: {path}")
 
         print(f"Loading PDF: {path.name}")
-        loader = PyMuPDFLoader(str(path))
+        loader = PDFPlumberLoader(str(pdf_path))
         pages = loader.load()
         print(f"  Loaded {len(pages)} pages")
 

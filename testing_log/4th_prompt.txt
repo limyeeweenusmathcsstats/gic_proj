@@ -1,0 +1,73 @@
+C:\Users\yeewe\gic_proj\venv\Lib\site-packages\langchain_core\_api\deprecation.py:25: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+Vector index ready: 'google_index' (460 chunks stored)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████| 103/103 [00:00<00:00, 10359.78it/s]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED    :can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Ask a question about the document: What was Google's operating income?
+
+Answer: The context does not provide a single "Google" operating income. Instead, it provides operating income for different segments: Google Services, Google Cloud, and Other Bets. 
+
+The operating income for these segments is as follows:
+- Google Services: $139,404 million (in 2025)
+- Google Cloud: $13,910 million (in 2025)
+- Other Bets: -$7,515 million (in 2025)
+
+The total income from operations for Alphabet (the parent company of Google) is $129,039 million (in 2025).
+
+Sources:
+page 37 - Google Services
+Google Services operating income increased $18.1 billion from 2024 to 2025. The increase in operating income
+was primarily driven by an increase in revenues, partially offset by an in...
+page 37 - Segment Profitability
+We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are
+not allocated to our segments because they represent Alphabet-lev...
+page 88 - (4,095)
+(4,444)
+(7,515)
+Alphabet-level activities
+
+(9,186)
+(10,541)
+(16,760)
+Total income from operations
+$
+84,293 $
+
+(9,186)
+(10,541)
+(16,760)
+Total income from operations
+$
+84,293 $
+112,390 $
+129,039
+Supplemental information about segment expenses:
+G...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annual planning process and to assess
+the performance of our segments, primarily by monitoring actual results versus the a...      
+129,039
+Supplemental information about segment expenses:
+G...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annual planning process and to assess
+the performance of our segments, primarily by monitoring actual results versus the a...      
+page 61 - In December 2023, the FASB issued ASU 2023-09 "Income Taxes (Topics 740): ImprovemeSupplemental information about segment expenses:
+G...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annual planning process and to assess
+the performance of our segments, primarily by monitoring actual results versus the a...      
+ planning process and to assess
+the performance of our segments, primarily by monitoring actual results versus the a...      
+page 61 - In December 2023, the FASB issued ASU 2023-09 "Income Taxes (Topics 740): Improvements to Income Tax
+Disclosures" which expands the disclosure requirements for income taxes. We adopted this ASU for o...
+
+Confidence: 0.7352
+
+Analysis:
+Managed to fix some of the messiness in the source eg. "annu84,293" but it still does not look very nice
+
