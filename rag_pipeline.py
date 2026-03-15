@@ -13,7 +13,7 @@ class RAGPipeline:
 
     def ask(self, question: str, top_k: int = 5, min_score: float = 0.2) -> Dict[str, Any]:
         """Retrieve relevant chunks and generate an answer with source info."""
-        results = self._retriever.retrieve(question, top_k=top_k, min_score=0.0)
+        results = self._retriever.retrieve(question, top_k=top_k, min_score=min_score)
 
         if not results:
             return {
@@ -22,7 +22,7 @@ class RAGPipeline:
                 "confidence": 0.0,
             }
 
-        context = " ".join([r["content"] for r in results])
+        context = "\n\n".join([r["content"] for r in results])
 
         sources = [
             {
