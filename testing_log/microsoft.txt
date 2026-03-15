@@ -1,0 +1,52 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What was Microsoft's net income in 2024?
+
+ANSWER
+------
+Microsoft's net income in 2024 was $88,308 million.
+
+CONFIDENCE : 6.2197
+
+SOURCES
+-------
+[1] Page 77  |  microsoft.pdf
+    Score   : 6.22
+    Excerpt : esults of Microsoft Corporation on an unaudited pro forma basis,
+as if the acquisition had been consummated on July 1, 2022:
+(In millions, except per share amounts)
+Year Ended June 30, 2024 2023
+Revenue $ 247,442 $ 219,790
+Net income 88,308 71,383
+Di...
+
+[2] Page 47  |  microsoft.pdf
+    Score   : 6.16
+    Excerpt : result of the geographic distribution of, and customer demand for, our products and services. In fiscal year 2024, our
+U.S. income before income taxes was $62.9 billion and our foreign income before income taxes was $44.9 billion. In
+fiscal year 2023...
+
+[3] Page 39  |  microsoft.pdf
+    Score   : 3.61
+    Excerpt : supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing,
+marketing, and selling our other products and services; and income taxes.
+Highlights from fiscal year 2024 compared with fiscal year 2023...
+
+[4] Page 41  |  microsoft.pdf
+    Score   : 0.42
+    Excerpt : s prepared in accordance with accounting principles generally accepted in the
+United States of America (“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.
+In the first quarter of fiscal year 2024, we made updates...
+
+[5] Page 43  |  microsoft.pdf
+    Score   : 0.4
+    Excerpt : lated to lease consolidation activities. Refer to the Non-GAAP Financial
+Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP
+financial results.
+Fiscal Year 2024 Compared with Fiscal Year 2...
+
+============================================================

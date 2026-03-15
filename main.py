@@ -39,6 +39,46 @@ def build_index(pdf_path: str, index: VectorIndex) -> DocumentEmbedder:
     return embedder
 
 
+def log_result(pdf_path: str, question: str, result: dict) -> str:
+    log_dir = Path("testing_log")
+    log_dir.mkdir(exist_ok=True)
+
+    doc_name = Path(pdf_path).stem
+    log_path = log_dir / f"{doc_name}.txt"
+
+    separator = "=" * 60
+
+    lines = [
+        separator,
+        f"  Document : {Path(pdf_path).name}",
+        separator,
+        "",
+        "QUESTION",
+        "--------",
+        question,
+        "",
+        "ANSWER",
+        "------",
+        result["answer"],
+        "",
+        f"CONFIDENCE : {result['confidence']}",
+        "",
+        "SOURCES",
+        "-------",
+    ]
+
+    for i, s in enumerate(result["sources"], 1):
+        lines.append(f"[{i}] Page {s['page']}  |  {s['source_file']}")
+        lines.append(f"    Score   : {s['score']}")
+        lines.append(f"    Excerpt : {s['preview']}")
+        lines.append("")
+
+    lines.append(separator)
+
+    log_path.write_text("\n".join(lines), encoding="utf-8")
+    return str(log_path)
+
+
 def main():
     pdf_path = choose_pdf()
     index_name = Path(pdf_path).stem + "_index"
@@ -57,11 +97,14 @@ def main():
     question = input("Ask a question about the document: ")
     result = pipeline.ask(question)
 
+    log_path = log_result(pdf_path, question, result)
+
     print("\nAnswer:", result["answer"])
     print("\nSources:")
-    for s in result["sources"]:
-        print(f"page {s['page']} - {s['preview']}")
-    print("\nConfidence:", result["confidence"])
+    for i, s in enumerate(result["sources"], 1):
+        print(f"  [{i}] Page {s['page']} (score {s['score']}) — {s['preview'][:120]}...")
+    print(f"\nConfidence : {result['confidence']}")
+    print(f"\nFull output saved to: {log_path}")
 
 if __name__ == "__main__":
     main()
