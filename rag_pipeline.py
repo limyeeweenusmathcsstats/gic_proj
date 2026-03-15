@@ -47,7 +47,7 @@ class RAGPipeline:
         sources = [
             {
                 "page": r["page"],
-                "filename": r["source_file"],
+                "source_file": r["source_file"],
                 "score": round(r["score"], 2),
                 "preview": self._find_best_excerpt(r["content"], question),
             }
