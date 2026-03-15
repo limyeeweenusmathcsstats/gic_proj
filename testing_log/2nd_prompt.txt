@@ -50,3 +50,7 @@ Google Services total
 Go...
 
 Confidence: 0.6902
+
+
+Problem:
+I think I accidentally joined the 5 chunks together and min score should not be 0 should be some value like 0.2

@@ -1,0 +1,113 @@
+Ask a question about the document: What was Google's earnings?
+
+Answer: The context does not contain enough information to determine Google's earnings. The context provides information on revenues, operating income, and other financial metrics, but it does not provide a comprehensive earnings statement.
+
+Sources:
+page 33 - Financial Statements included in Item 8 of this Annual Report on Form 10-K.      
+•
+Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google
+Services reven...
+page 37 - Google Services
+Google Services operating income increased $18.1 billion from 2024 to 2025. The increase in operating income
+was primarily driven by an increase in revenues, partially offset by an in...
+page 37 - Segment Profitability
+We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are
+not allocated to our segments because they represent Alphabet-lev...
+page 34 - •
+Capital expenditures, which primarily reflected investments in technical infrastructure, were $91.4 billion for the
+year ended December 31, 2025.
+•
+As of December 31, 2025, we had 190,820 employees...
+page 34 - 36,147
+40,367
+Google Network
+
+30,359
+29,792
+Google advertising
+
+264,590
+294,691
+Google subscriptions, platforms, and devices
+
+40,340
+48,030
+Google Services total
+
+304,930
+342,721
+Go...
+
+Confidence: 0.6902
+
+
+Ask a question about the document: What was Google's operating income?   
+
+Answer: The context does not provide a single, overall operating income for Google. However, it does provide the total income from operations for Alphabet Inc., which is the parent company of Google.
+
+According to the context, the total income from operations for Alphabet Inc. was:
+- $84,293 million in 2023
+- $112,390 million in 2024
+- $129,039 million in 2025
+
+Additionally, the context provides the operating income for each segment:
+- Google Services: $95,858 million in 2023, $121,263 million in 2024, and $139,404 million in 2025
+- Google Cloud: $1,716 million in 2023, $6,112 million in 2024, and $13,910 million in 2025
+- Other Bets: ($4,095 million) in 2023, ($4,444 million) in 2024, and ($7,515 million) in 2025
+- Alphabet-level activities: ($9,186 million) in 2023, ($10,541 million) in 2024, and ($16,760 million) in 2025
+
+Sources:
+page 37 - Google Services
+Google Services operating income increased $18.1 billion from 2024 to 2025. The increase in operating income
+was primarily driven by an increase in revenues, partially offset by an in...
+page 37 - Segment Profitability
+We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are
+not allocated to our segments because they represent Alphabet-lev...
+page 88 - (4,095)
+(4,444)
+(7,515)
+Alphabet-level activities
+
+(9,186)
+(10,541)
+(16,760)
+Total income from operations
+$
+84,293 $
+112,390 $
+129,039
+Supplemental information about segment expenses:
+G...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annu(7,515)
+Alphabet-level activities
+
+(9,186)
+(10,541)
+(16,760)
+Total income from operations
+$
+84,293 $
+112,390 $
+129,039
+Supplemental information about segment expenses:
+G...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annu84,293 $
+112,390 $
+129,039
+Supplemental information about segment expenses:
+G...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annuG...
+page 88 - segment operating income (loss) to allocate resources to our segments in our annupage 88 - segment operating income (loss) to allocate resources to our segments in our annual planning process and to assess
+the performance of our segments, primarily by monitoring actual results versus the a...    
+page 61 - In December 2023, the FASB issued ASU 2023-09 "Income Taxes (Topics 740): Improvements to Income Tax
+Disclosures" which expands the disclosure requirements for income taxes. We adopted this ASU for o...
+
+Confidence: 0.7352
+
+
+Analysis:
+Ok maybe the problem was my prompt. Maybe earnings was ambiguous so I switched to using the term operating income.
+Seems like the LLM got the answer right
+But there are still some issues:
+1) somehow the evidence section is very messy with strange formatting and truncation
+2) Also page 88 is duplicated multiple times
