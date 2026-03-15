@@ -1,7 +1,5 @@
-import re
 import math
 from typing import Dict, Any, List
-from nltk.corpus import stopwords as nltk_stopwords
 from sentence_transformers.cross_encoder import CrossEncoder
 
 from groq_llm import GroqLLM
@@ -18,24 +16,6 @@ class RAGPipeline:
 
     def _sigmoid(self, x: float) -> float:
         return 1 / (1 + math.exp(-x))
-
-    def _find_best_excerpt(self, content: str, question: str, length: int = 250) -> str:
-        stopwords = set(nltk_stopwords.words("english"))
-        query_words = set(re.sub(r"[^\w\s]", "", question.lower()).split()) - stopwords
-
-        best_start = 0
-        best_score = -1
-        step = 40
-
-        for i in range(0, max(1, len(content) - length), step):
-            window = content[i:i + length]
-            words = set(re.sub(r"[^\w\s]", "", window.lower()).split())
-            score = len(words & query_words)
-            if score > best_score:
-                best_score = score
-                best_start = i
-
-        return content[best_start:best_start + length].strip() + "..."
 
     def _rerank(self, question: str, results: List[Dict], top_k: int) -> List[Dict]:
         pairs = [[question, r["content"]] for r in results]
@@ -64,7 +44,7 @@ class RAGPipeline:
                 "page": r["page"],
                 "source_file": r["source_file"],
                 "score": round(self._sigmoid(r["score"]), 4),
-                "preview": self._find_best_excerpt(r["content"], question),
+                "content": r["content"],
             }
             for r in results
         ]

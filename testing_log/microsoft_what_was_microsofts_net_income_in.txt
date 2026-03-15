@@ -1,0 +1,91 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What was Microsoft's net income in 2024?
+
+ANSWER
+------
+Microsoft's net income in 2024 was $88,308 million.
+
+CONFIDENCE : 0.998
+
+SOURCES
+-------
+[1] Page 77  |  microsoft.pdf
+    Score   : 0.998
+    Content : (In millions)
+Year Ended June 30, 2024
+Revenue $ 5,729
+Operating loss (1,362 )
+The change of Activision Blizzard content from third-party to first-party is reflected in the net impact.
+Following are the supplemental consolidated financial results of Microsoft Corporation on an unaudited pro forma basis,
+as if the acquisition had been consummated on July 1, 2022:
+(In millions, except per share amounts)
+Year Ended June 30, 2024 2023
+Revenue $ 247,442 $ 219,790
+Net income 88,308 71,383
+Diluted earnings per share 11.82 9.55
+These pro forma results were based on estimates and assumptions, which we believe are reasonable. They are not
+the results that would have been realized had we been a combined company during the periods presented and are not
+necessarily indicative of our consolidated results of operations in future periods. The pro forma results include
+adjustments related to purchase accounting, primarily amortization of intangible assets. Acquisition costs and other
+
+[2] Page 47  |  microsoft.pdf
+    Score   : 0.9979
+    Content : result of the geographic distribution of, and customer demand for, our products and services. In fiscal year 2024, our
+U.S. income before income taxes was $62.9 billion and our foreign income before income taxes was $44.9 billion. In
+fiscal year 2023, our U.S. income before income taxes was $52.9 billion and our foreign income before income taxes
+was $36.4 billion.
+The Organisation for Economic Co-operation and Development (“OECD”) published its model rules “Tax Challenges
+Arising From the Digitalisation of the Economy - Global Anti-Base Erosion Model Rules (Pillar Two)” which established
+a global minimum corporate tax rate of 15% for certain multinational enterprises. Many countries have implemented or
+are in the process of implementing the Pillar Two legislation, which will apply to Microsoft beginning in fiscal year 2025.
+While we do not currently estimate a material impact to our consolidated financial statements, we continue to monitor
+
+[3] Page 39  |  microsoft.pdf
+    Score   : 0.9737
+    Content : supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing,
+marketing, and selling our other products and services; and income taxes.
+Highlights from fiscal year 2024 compared with fiscal year 2023 included:
+• Microsoft Cloud revenue increased 23% to $137.4 billion.
+• Office Commercial products and cloud services revenue increased 14% driven by Office 365 Commercial
+growth of 16%.
+• Office Consumer products and cloud services revenue increased 4% and Microsoft 365 Consumer
+subscribers grew to 82.5 million.
+• LinkedIn revenue increased 9%.
+• Dynamics products and cloud services revenue increased 19% driven by Dynamics 365 growth of 24%.
+• Server products and cloud services revenue increased 22% driven by Azure and other cloud services
+growth of 30%.
+• Windows revenue increased 8% with Windows original equipment manufacturer licensing (“Windows OEM”)
+
+[4] Page 41  |  microsoft.pdf
+    Score   : 0.6027
+    Content : are calculated based on financial results prepared in accordance with accounting principles generally accepted in the
+United States of America (“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.
+In the first quarter of fiscal year 2024, we made updates to the presentation and method of calculation for certain
+metrics, revising our Microsoft Cloud revenue metric to include revenue growth and expanding our Microsoft 365
+Consumer subscribers metric to include Microsoft 365 Basic subscribers, aligning with how we manage our business.
+Commercial
+Our commercial business primarily consists of Server products and cloud services, Office Commercial, Windows
+Commercial, the commercial portion of LinkedIn, Enterprise and partner services, and Dynamics. Our commercial
+metrics allow management and investors to assess the overall health of our commercial business and include leading
+indicators of future performance.
+
+[5] Page 43  |  microsoft.pdf
+    Score   : 0.5993
+    Content : of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from
+changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial
+Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP
+financial results.
+Fiscal Year 2024 Compared with Fiscal Year 2023
+Revenue increased $33.2 billion or 16% driven by growth across each of our segments. Intelligent Cloud revenue
+increased driven by Azure. Productivity and Business Processes revenue increased driven by Office 365 Commercial.
+More Personal Computing revenue increased driven by Gaming.
+Cost of revenue increased $8.3 billion or 13% driven by growth in Microsoft Cloud and Gaming, offset in part by a
+decline in Devices.
+Gross margin increased $25.0 billion or 17% driven by growth across each of our segments.
+
+============================================================

@@ -4,19 +4,19 @@
 
 QUESTION
 --------
-What are the main risks Microsoft identifies in its 10-K
+What are the main risks Microsoft identifies in its 10-K?
 
 ANSWER
 ------
-The context provided does not contain enough information to fully answer the question about the main risks Microsoft identifies in its 10-K. While it mentions regulatory risks, competition laws, and risks related to insider trading, it refers to "Risk Factors (Part I, Item 1A of this Form 10-K)" for a description of the risks related to regulatory matters, implying that a more comprehensive list of risks is available in that section, which is not included in the provided context.
+The context provided does not contain enough information to fully answer the question about the main risks Microsoft identifies in its 10-K. It mentions regulatory risks, particularly in relation to the EU Digital Markets Act and competition laws, as well as the risk of failing to comply with competition rules when cooperating and competing with OEM partners. However, for a comprehensive description of the risks Microsoft faces, it refers to "Risk Factors (Part I, Item 1A of this Form 10-K)" which is not included in the provided context.
 
-CONFIDENCE : 2.2958
+CONFIDENCE : 0.8217
 
 SOURCES
 -------
 [1] Page 3  |  microsoft.pdf
-    Score   : 2.3
-    Excerpt : MICROSOFT CORPORATION
+    Score   : 0.8217
+    Content : MICROSOFT CORPORATION
 FORM 10-K
 For the Fiscal Year Ended June 30, 2024
 INDEX
@@ -27,32 +27,72 @@ Information about our Executive Officers 18
 Item 1A. Risk Factors 20
 Item 1B. Unresolved Staff Comments 34
 Item 1C. Cybersecurity 34
-Item 2....
+Item 2. Properties 36
+Item 3. Legal Proceedings 36
+Item 4. Mine Safety Disclosures 36
+PART II
+Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters, and Issuer
+Purchases of Equity Securities 37
+Item 6. [Reserved] 37
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 38
+Item 7A. Quantitative and Qualitative Disclosures About Market Risk 54
+Item 8. Financial Statements and Supplementary Data 55
+Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure 98
+Item 9A. Controls and Procedures 98
+Report of Management on Internal Control over Financial Reporting 98
+Report of Independent Registered Public Accounting Firm 99
+Item 9B. Other Information 100
 
 [2] Page 39  |  microsoft.pdf
-    Score   : -0.91
-    Excerpt : “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on
+    Score   : 0.1384
+    Content : “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on
 Form 10-K for the year ended June 30, 2023.
 OVERVIEW
-Microsoft is a technology company committed to making digital technology and artifici...
+Microsoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available
+broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to
+achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving
+needs of our customers.
+We generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and
+businesses; licensing and supporting an array of software products; delivering relevant online advertising to a global
+audience; and designing and selling devices. Our most significant expenses are related to compensating employees;
+supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing,
 
 [3] Page 18  |  microsoft.pdf
-    Score   : -4.53
-    Excerpt : ndent compliance
+    Score   : 0.0036
+    Content : Our business teams, with legal support, manage the compliance programs and prepare external regulatory and
+commercial reporting, and our internal audit teams conduct reviews of our programs and processes. While we intended
+to create a unified approach to regulatory compliance, some of the programs and processes established pursuant to
+the framework are tailored to meet specific regulatory obligations, such as with the creation of independent compliance
 functions required by the European Union (“EU”) Digital Markets Act and the EU Digital Services Act, which oversee,
 monitor, and assess the company’s compliance with these acts.
-For a description of the risks we face related to regul...
+For a description of the risks we face related to regulatory matters, refer to Risk Factors (Part I, Item 1A of this Form
+10-K).
+17
 
 [4] Page 29  |  microsoft.pdf
-    Score   : -6.16
-    Excerpt : e EU Digital Markets Act, which prohibits certain self-preferencing behaviors
+    Score   : 0.0009
+    Content : services subject to obligations under the EU Digital Markets Act, which prohibits certain self-preferencing behaviors
 and places limitations on certain data use among other obligations. The Commission also continues to closely
-scrutinize the design of high-volume Microsoft products and the...
+scrutinize the design of high-volume Microsoft products and the terms on which we make certain technologies used in
+these products, such as file formats, programming interfaces, and protocols, available to other companies. Flagship
+product releases such as Microsoft 365 and Windows can receive significant scrutiny under EU or other competition
+laws.
+Our portfolio of first-party devices continues to grow; at the same time, our OEM partners offer a large variety of devices
+for our platforms. As a result, we increasingly both cooperate and compete with our OEM partners, creating a risk that
+we fail to do so in compliance with competition rules. Regulatory scrutiny in this area may increase. Certain foreign
 
-[5] Page 156  |  microsoft.pdf
-    Score   : -6.31
-    Excerpt : that an Insider is engaging in short-term, speculative transactions or inappropriately hedging the risk of declines in
-Microsoft stock. For this reason, Insiders may not trade in options, puts, calls or other derivative instruments
-related to Microso...
+[5] Page 160  |  microsoft.pdf
+    Score   : 0.0001
+    Content : investment control; or (3) a person who has the power to revoke the trust.
+• Microsoft shares held in the name of a partnership or other entity over which the Insider has a controlling
+influence.
+Insiders may wish to consult with a Contact or send e-mail to (**)@microsoft.com to clarify reporting
+responsibilities with respect to any Microsoft securities over which the Insider has voting control or in which the
+Insider has an economic interest.
+7. Sanctions
+Persons who are found to have traded on material, nonpublic information can face serious criminal and civil
+penalties. Insiders that violate the prohibition on short-swing profit transactions will be required to disgorge the
+deemed profit from the transaction to the Company. Any late or delinquent filings are required to be reported in
+Microsoft’s annual proxy statement. In addition, the SEC has broad authority to seek sanctions from late filers;
 
 ============================================================

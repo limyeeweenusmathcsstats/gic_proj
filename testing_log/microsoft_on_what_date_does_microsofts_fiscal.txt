@@ -1,0 +1,79 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+On what date does Microsoft’s fiscal year end?
+
+ANSWER
+------
+The context does not contain enough information to determine the exact date on which Microsoft's fiscal year ends, only that the fiscal year ends on June 30.
+
+CONFIDENCE : 0.98
+
+SOURCES
+-------
+[1] Page 153  |  microsoft.pdf
+    Score   : 0.98
+    Content : Microsoft's public release of quarterly earnings, and end at the close of trading 15 business days before the
+end of the fiscal quarter in which the earnings were released.
+• For example, if Microsoft made an earnings announcement on a Thursday, the Open Window Period would
+open the following Monday, and would end at the close of the trading 15 business days before the end of
+that fiscal quarter.
+• After you become subject to this Restricted Trading Window Policy, and as long as you have an active
+restriction reason, you will receive three emails each quarter from the insider trading compliance tool. (1)
+You will receive an email on the first business day after the public release of quarterly earnings to confirm
+the date the trading window will open and that your trading status will be Trading Allowed. (2) You will
+receive an email 14 calendar days before the trading window closes to let you know the date when your
+
+[2] Page 39  |  microsoft.pdf
+    Score   : 0.976
+    Content : PART II
+Item 7
+ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND
+RESULTS OF OPERATIONS
+The following Management’s Discussion and Analysis of Financial Condition and Results of Operations (“MD&A”) is
+intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&A
+is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the
+accompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the
+results of our operations for the year ended June 30, 2024 compared to the year ended June 30, 2023. For a discussion
+of the year ended June 30, 2023 compared to the year ended June 30, 2022, please refer to Part II, Item 7,
+“Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on
+Form 10-K for the year ended June 30, 2023.
+OVERVIEW
+
+[3] Page 156  |  microsoft.pdf
+    Score   : 0.9672
+    Content : time when the public has been apprised of all relevant material information about the Company’s recent business
+and financial performance. The window period generally begins on the commencement of trading on the second
+full trading day following Microsoft's public release of quarterly earnings, and ends at the close of trading 15
+business days prior to the end of the third month of the fiscal quarter in which the earnings are released (the “Open
+
+[4] Page 95  |  microsoft.pdf
+    Score   : 0.9426
+    Content : PART II
+Item 8
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Stockholders and the Board of Directors of Microsoft Corporation
+Opinion on the Financial Statements
+We have audited the accompanying consolidated balance sheets of Microsoft Corporation and subsidiaries (the
+"Company") as of June 30, 2024 and 2023, the related consolidated statements of income, comprehensive
+income, cash flows, and stockholders' equity, for each of the three years in the period ended June 30, 2024, and
+the related notes (collectively referred to as the "financial statements"). In our opinion, the financial statements
+present fairly, in all material respects, the financial position of the Company as of June 30, 2024 and 2023, and
+the results of its operations and its cash flows for each of the three years in the period ended June 30, 2024, in
+conformity with accounting principles generally accepted in the United States of America.
+
+[5] Page 82  |  microsoft.pdf
+    Score   : 0.87
+    Content : net consists primarily of tax credits and GILTI tax, and in fiscal year 2024, includes tax benefits from tax law changes.
+In fiscal year 2024, tax benefits from tax law changes primarily relates to the issuance of Notice 2023-55 and Notice
+2023-80 by the Internal Revenue Service (“IRS”) and U.S. Treasury Department. Notice 2023-55, issued in the first
+quarter of fiscal year 2024, delayed the effective date of final foreign tax credit regulations to fiscal year 2024 for
+Microsoft. Notice 2023-80, issued in the second quarter of fiscal year 2024, further delayed the effective date of final
+foreign tax credit regulations indefinitely. In fiscal years 2024, 2023, and 2022, there were no individually significant
+other reconciling items.
+81
+
+============================================================

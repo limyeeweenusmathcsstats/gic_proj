@@ -73,7 +73,7 @@ def log_result(pdf_path: str, question: str, result: dict) -> str:
     for i, s in enumerate(result["sources"], 1):
         lines.append(f"[{i}] Page {s['page']}  |  {s['source_file']}")
         lines.append(f"    Score   : {s['score']}")
-        lines.append(f"    Excerpt : {s['preview']}")
+        lines.append(f"    Content : {s['content']}")
         lines.append("")
 
     lines.append(separator)
@@ -105,7 +105,7 @@ def main():
     print("\nAnswer:", result["answer"])
     print("\nSources:")
     for i, s in enumerate(result["sources"], 1):
-        print(f"  [{i}] Page {s['page']} (score {s['score']}) — {s['preview'][:120]}...")
+        print(f"  [{i}] Page {s['page']} (score {s['score']}) — {s['content'][:120]}...")
     print(f"\nConfidence : {result['confidence']}")
     print(f"\nFull output saved to: {log_path}")
 
