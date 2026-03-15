@@ -5,6 +5,10 @@ IMPORTANT ASSUMPTIONS when running the code:
 Before running the code,
 One needs to get a free API key at console.groq.com
 
-
 To run the code, type the following command
 python main.py
+
+Debugging Log
+each file consists of the following:
+a question asked, the response given by my AI 
+and my hypothesis on what went wrong

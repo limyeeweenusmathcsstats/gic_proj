@@ -1,0 +1,40 @@
+Ask a question about the document: how much was google's earnings?
+
+Answer: The context does not contain enough information to determine Google's earnings. The information provided includes revenues, cost of revenues, operating expenses, and operating income, but it does not provide a complete income statement that would allow for the calculation of Google's earnings (net income).
+
+Sources:
+page 33 - Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+•
+Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google
+Services reven...
+page 37 - Google Services
+Google Services operating income increased $18.1 billion from 2024 to 2025. The increase in operating income
+was primarily driven by an increase in revenues, partially offset by an in...
+page 37 - Segment Profitability
+We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are
+not allocated to our segments because they represent Alphabet-lev...
+page 88 - (4,095)
+(4,444)
+(7,515)
+Alphabet-level activities
+
+(9,186)
+(10,541)
+(16,760)
+Total income from operations
+$
+84,293 $
+112,390 $
+129,039
+Supplemental information about segment expenses:
+page 34 - •
+Capital expenditures, which primarily reflected investments in technical infrastructure, were $91.4 billion for the        
+year ended December 31, 2025.
+•
+As of December 31, 2025, we had 190,820 employees...
+
+Confidence: 0.6886
+
+Problem:
+This is very suspicious as clearly earnings is in the annual report
+I realise I reversed the args by mistake
