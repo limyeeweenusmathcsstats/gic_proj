@@ -1,0 +1,30 @@
+Ask a question about the document: What are the names of Microsoft’s three reportable segments?
+
+Answer: The names of Microsoft's three reportable segments are:
+
+1. Productivity and Business Processes
+2. Intelligent Cloud
+3. More Personal Computing.
+
+Sources:
+page 92 - istent with GAAP. During the periods presented, we reported our financial performance
+based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal
+Computing.
+Our reportable segments are described below.
+P...
+page 40 - Reportable Segments
+We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent
+Cloud, and More Personal Computing. The segment amounts included in MD&A are presented on a basis consistent
+wit...
+page 93 - • Search and news advertising, comprising Bing (including Copilot), Microsoft News, Microsoft Edge, and
+third-party affiliates.
+Revenue and costs are generally directly attributed to our segments. However, due to the integrated structure of our
+busin...
+page 9 - n on our operating segments and geographic and product information is contained in Note 19 –
+Segment Information and Geographic Data of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).
+Our reportable segments are described below...
+page 95 - of Microsoft Corporation and subsidiaries (the
+"Company") as of June 30, 2024 and 2023, the related consolidated statements of income, comprehensive
+income, cash flows, and stockholders' equity, for each of the three years in the period ended June 30...
+
+Confidence: 2.8979

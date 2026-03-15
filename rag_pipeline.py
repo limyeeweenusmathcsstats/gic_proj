@@ -1,6 +1,7 @@
 import re
-from typing import Dict, Any
+from typing import Dict, Any, List
 from nltk.corpus import stopwords as nltk_stopwords
+from sentence_transformers.cross_encoder import CrossEncoder
 
 from groq_llm import GroqLLM
 from retriever import Retriever
@@ -12,6 +13,7 @@ class RAGPipeline:
     def __init__(self, retriever: Retriever, llm: GroqLLM):
         self._retriever = retriever
         self._llm = llm
+        self._reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
     def _find_best_excerpt(self, content: str, question: str, length: int = 250) -> str:
         stopwords = set(nltk_stopwords.words("english"))
@@ -31,9 +33,18 @@ class RAGPipeline:
 
         return content[best_start:best_start + length].strip() + "..."
 
+    def _rerank(self, question: str, results: List[Dict], top_k: int) -> List[Dict]:
+        pairs = [[question, r["content"]] for r in results]
+        scores = self._reranker.predict(pairs)
+        for r, s in zip(results, scores):
+            r["score"] = float(s)
+        results.sort(key=lambda r: r["score"], reverse=True)
+        return results[:top_k]
+
     def ask(self, question: str, top_k: int = 5, min_score: float = 0.2) -> Dict[str, Any]:
         """Retrieve relevant chunks and generate an answer with source info."""
-        results = self._retriever.retrieve(question, top_k=top_k, min_score=min_score)
+        candidates = self._retriever.retrieve(question, top_k=top_k * 3, min_score=min_score)
+        results = self._rerank(question, candidates, top_k) if candidates else candidates
 
         if not results:
             return {
