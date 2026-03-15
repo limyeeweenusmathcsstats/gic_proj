@@ -1,0 +1,58 @@
+============================================================
+  Document : microsoft.pdf
+============================================================
+
+QUESTION
+--------
+What are the main risks Microsoft identifies in its 10-K
+
+ANSWER
+------
+The context provided does not contain enough information to fully answer the question about the main risks Microsoft identifies in its 10-K. While it mentions regulatory risks, competition laws, and risks related to insider trading, it refers to "Risk Factors (Part I, Item 1A of this Form 10-K)" for a description of the risks related to regulatory matters, implying that a more comprehensive list of risks is available in that section, which is not included in the provided context.
+
+CONFIDENCE : 2.2958
+
+SOURCES
+-------
+[1] Page 3  |  microsoft.pdf
+    Score   : 2.3
+    Excerpt : MICROSOFT CORPORATION
+FORM 10-K
+For the Fiscal Year Ended June 30, 2024
+INDEX
+Page
+PART I
+Item 1. Business 3
+Information about our Executive Officers 18
+Item 1A. Risk Factors 20
+Item 1B. Unresolved Staff Comments 34
+Item 1C. Cybersecurity 34
+Item 2....
+
+[2] Page 39  |  microsoft.pdf
+    Score   : -0.91
+    Excerpt : “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on
+Form 10-K for the year ended June 30, 2023.
+OVERVIEW
+Microsoft is a technology company committed to making digital technology and artifici...
+
+[3] Page 18  |  microsoft.pdf
+    Score   : -4.53
+    Excerpt : ndent compliance
+functions required by the European Union (“EU”) Digital Markets Act and the EU Digital Services Act, which oversee,
+monitor, and assess the company’s compliance with these acts.
+For a description of the risks we face related to regul...
+
+[4] Page 29  |  microsoft.pdf
+    Score   : -6.16
+    Excerpt : e EU Digital Markets Act, which prohibits certain self-preferencing behaviors
+and places limitations on certain data use among other obligations. The Commission also continues to closely
+scrutinize the design of high-volume Microsoft products and the...
+
+[5] Page 156  |  microsoft.pdf
+    Score   : -6.31
+    Excerpt : that an Insider is engaging in short-term, speculative transactions or inappropriately hedging the risk of declines in
+Microsoft stock. For this reason, Insiders may not trade in options, puts, calls or other derivative instruments
+related to Microso...
+
+============================================================

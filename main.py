@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 from document_processor import DocumentProcessor
@@ -44,7 +45,9 @@ def log_result(pdf_path: str, question: str, result: dict) -> str:
     log_dir.mkdir(exist_ok=True)
 
     doc_name = Path(pdf_path).stem
-    log_path = log_dir / f"{doc_name}.txt"
+    slug = re.sub(r"[^\w\s]", "", question.lower())
+    slug = "_".join(slug.split()[:6])
+    log_path = log_dir / f"{doc_name}_{slug}.txt"
 
     separator = "=" * 60
 

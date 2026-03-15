@@ -1,4 +1,5 @@
 import re
+import math
 from typing import Dict, Any, List
 from nltk.corpus import stopwords as nltk_stopwords
 from sentence_transformers.cross_encoder import CrossEncoder
@@ -14,6 +15,9 @@ class RAGPipeline:
         self._retriever = retriever
         self._llm = llm
         self._reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+
+    def _sigmoid(self, x: float) -> float:
+        return 1 / (1 + math.exp(-x))
 
     def _find_best_excerpt(self, content: str, question: str, length: int = 250) -> str:
         stopwords = set(nltk_stopwords.words("english"))
@@ -59,14 +63,14 @@ class RAGPipeline:
             {
                 "page": r["page"],
                 "source_file": r["source_file"],
-                "score": round(r["score"], 2),
+                "score": round(self._sigmoid(r["score"]), 4),
                 "preview": self._find_best_excerpt(r["content"], question),
             }
             for r in results
         ]
 
         answer = self._llm.generate(question, context)
-        confidence = max(r["score"] for r in results)
+        confidence = self._sigmoid(max(r["score"] for r in results))
 
         return {
             "answer": answer,
