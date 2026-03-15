@@ -1,3 +1,8 @@
+Analysis:
+Managed to fix some of the messiness in the source eg. "annu84,293" but it still does not look very nice
+I think the large number of duplicates is because of the high overlap of 200 in the chunking part
+
+
 NOTE: The data changed! I was using Google's annual report until I realised that it is 99 pages which is less than 100
 Ask a question about the document: What was Google's operating income?
 
@@ -56,7 +61,3 @@ page 61 - In December 2023, the FASB issued ASU 2023-09 "Income Taxes (Topics 74
 Disclosures" which expands the disclosure requirements for income taxes. We adopted this ASU for o...
 
 Confidence: 0.7352
-
-Analysis:
-Managed to fix some of the messiness in the source eg. "annu84,293" but it still does not look very nice
-I think the large number of duplicates is because of the high overlap of 200 in the chunking part

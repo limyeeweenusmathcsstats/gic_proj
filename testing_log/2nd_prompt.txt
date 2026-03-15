@@ -1,3 +1,7 @@
+Problem:
+I think I accidentally joined the 5 chunks together and min score should not be 0 should be some value like 0.2
+
+
 NOTE: The data changed! I was using Google's annual report until I realised that it is 99 pages which is less than 100
 
 Ask a question about the document: What was Google's earnings?
@@ -52,7 +56,3 @@ Google Services total
 Go...
 
 Confidence: 0.6902
-
-
-Problem:
-I think I accidentally joined the 5 chunks together and min score should not be 0 should be some value like 0.2

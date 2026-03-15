@@ -1,3 +1,14 @@
+Analysis:
+Ok maybe the problem was my prompt. Maybe earnings was ambiguous so I switched to using the term operating income.
+Seems like the LLM got the answer right
+But there are still some issues:
+1) somehow the evidence section is very messy with strange formatting and truncation
+2) Also page 88 is duplicated multiple times
+
+I think maybe its because of the tables that are somehow interfering with how the words are being read
+I shall try to deal with problem 1 first.
+
+
 NOTE: The data changed! I was using Google's annual report until I realised that it is 99 pages which is less than 100
 
 Ask a question about the document: What was Google's earnings?
@@ -105,14 +116,3 @@ page 61 - In December 2023, the FASB issued ASU 2023-09 "Income Taxes (Topics 74
 Disclosures" which expands the disclosure requirements for income taxes. We adopted this ASU for o...
 
 Confidence: 0.7352
-
-
-Analysis:
-Ok maybe the problem was my prompt. Maybe earnings was ambiguous so I switched to using the term operating income.
-Seems like the LLM got the answer right
-But there are still some issues:
-1) somehow the evidence section is very messy with strange formatting and truncation
-2) Also page 88 is duplicated multiple times
-
-I think maybe its because of the tables that are somehow interfering with how the words are being read
-I shall try to deal with problem 1 first.

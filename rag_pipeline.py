@@ -1,3 +1,4 @@
+import re
 from typing import Dict, Any
 
 from groq_llm import GroqLLM
@@ -10,6 +11,23 @@ class RAGPipeline:
     def __init__(self, retriever: Retriever, llm: GroqLLM):
         self._retriever = retriever
         self._llm = llm
+
+    def _find_best_excerpt(self, content: str, question: str, length: int = 200) -> str:
+        query_words = set(re.sub(r"[^\w\s]", "", question.lower()).split())
+        sentences = re.split(r"(?<=[.!?])\s+", content)
+
+        best_idx = 0
+        best_overlap = -1
+        for i, sentence in enumerate(sentences):
+            words = set(re.sub(r"[^\w\s]", "", sentence.lower()).split())
+            overlap = len(words & query_words)
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_idx = i
+
+        start = content.find(sentences[best_idx])
+        excerpt = content[max(0, start - 50): start + length]
+        return excerpt.strip() + "..."
 
     def ask(self, question: str, top_k: int = 5, min_score: float = 0.2) -> Dict[str, Any]:
         """Retrieve relevant chunks and generate an answer with source info."""
@@ -29,7 +47,7 @@ class RAGPipeline:
                 "page": r["page"],
                 "filename": r["source_file"],
                 "score": round(r["score"], 2),
-                "preview": r["content"][:200] + "...",
+                "preview": self._find_best_excerpt(r["content"], question),
             }
             for r in results
         ]

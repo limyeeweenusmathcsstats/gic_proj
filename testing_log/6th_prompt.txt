@@ -1,0 +1,46 @@
+Analysis: The evidence cited still do not address the question directly
+
+
+Ask a question about the document: What are the names of Microsoft’s three reportable segments?
+
+Answer: The names of Microsoft's three reportable segments are:
+
+1. Productivity and Business Processes
+2. Intelligent Cloud
+3. More Personal Computing
+
+Sources:
+page 40 - Reportable Segments
+We report our financial performance based on the following segments: Productivity and BWe report our financial performance based on the following segments: Productivity and Business Processes, Intelligent
+We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent
+Cloud, and More Personal Computing. The segment amounts includ...
+page 92 - , Intelligent Cloud, and More Personal
+Computing.
+Our reportable segments are described below.
+page 92 - , Intelligent Cloud, and More Personal
+Computing.
+Our reportable segments are described below.
+Computing.
+Our reportable segments are described below.
+Our reportable segments are described below.
+Productivity and Business Processes
+Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity,
+com...
+page 9 - mprehensive financial view of our key businesses. The segments enable the aligr portfolio of productivity,
+com...
+page 9 - mprehensive financial view of our key businesses. The segments enable the alignment of strategies and objectives
+across the development, sales, marketing, and services organizations, and they provide nment of strategies and objectives
+across the development, sales, marketing, and services organizations, and they provide a framework for timely and
+a framework for timely and
+rational allocation of...
+page 93 - re generally directly attributed to our segments. However, due to the integrated structure of our
+business, certain revenue recognized and costs incurred by one segment may benefit othebusiness, certain revenue recognized and costs incurred by one segment may benefit other segments. Revenue from
+certain contracts is allocated among the...
+page 95 - PART II
+Item 8
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Stockholders and the Board of Directors of Microsoft Corporation
+Opinion on the Financial Statements
+We have audited the a...
+
+Confidence: 0.5703

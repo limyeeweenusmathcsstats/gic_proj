@@ -1,3 +1,9 @@
+Problem:
+This is very suspicious as clearly earnings is in the annual report
+I realise I reversed the args by mistake
+
+NOTE: The data changed! I was using Google's annual report until I realised that it is 99 pages which is less than 100
+
 Ask a question about the document: how much was google's earnings?
 
 Answer: The context does not contain enough information to determine Google's earnings. The information provided includes revenues, cost of revenues, operating expenses, and operating income, but it does not provide a complete income statement that would allow for the calculation of Google's earnings (net income).
@@ -34,7 +40,3 @@ year ended December 31, 2025.
 As of December 31, 2025, we had 190,820 employees...
 
 Confidence: 0.6886
-
-Problem:
-This is very suspicious as clearly earnings is in the annual report
-I realise I reversed the args by mistake
