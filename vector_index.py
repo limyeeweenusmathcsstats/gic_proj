@@ -20,7 +20,10 @@ class VectorIndex:
     def _setup(self):
         os.makedirs(self.storage_dir, exist_ok=True)
         self._client = chromadb.PersistentClient(path=self.storage_dir)
-        self._index = self._client.get_or_create_collection(name=self.index_name)
+        self._index = self._client.get_or_create_collection(
+            name=self.index_name,
+            metadata={"hnsw:space": "cosine"}
+        )
         print(f"Vector index ready: '{self.index_name}' ({self._index.count()} chunks stored)")
 
     def add_chunks(self, chunks: List[Document], vectors: np.ndarray):
