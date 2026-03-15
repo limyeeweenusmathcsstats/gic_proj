@@ -8,7 +8,7 @@ What was the date of Microsoft’s most recent major acquisition, and what compa
 
 ANSWER
 ------
-The context does not contain enough information to determine the date of Microsoft's most recent major acquisition and the company acquired, except that it mentions the acquisition of Activision Blizzard, but it does not provide the exact date of the acquisition. However, it does mention that the pro forma results are "as if the acquisition had been consummated on July 1, 2022".
+The context does not contain enough information to determine the date of Microsoft's most recent major acquisition and the company acquired, except that it mentions the acquisition of Activision Blizzard, but it does not provide the exact date of the acquisition. However, it does mention that the supplemental consolidated financial results are "as if the acquisition had been consummated on July 1, 2022".
 
 CONFIDENCE : 0.3783
 

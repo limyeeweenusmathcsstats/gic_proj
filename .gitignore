@@ -20,4 +20,3 @@ venv/
 
 # Data files
 data/vector_store/
-data/text_files/
