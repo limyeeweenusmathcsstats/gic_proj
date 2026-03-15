@@ -1,3 +1,7 @@
+Analysis:
+Managed to get a higher confidence score by changing to taking max over average of the confidence scores.
+some evidence not answering question problem still persists
+
 Ask a question about the document: What are the names of Microsoft’s three reportable segments?
 
 Answer: The names of Microsoft's three reportable segments are:

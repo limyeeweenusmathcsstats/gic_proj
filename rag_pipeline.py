@@ -1,5 +1,6 @@
 import re
 from typing import Dict, Any
+from nltk.corpus import stopwords as nltk_stopwords
 
 from groq_llm import GroqLLM
 from retriever import Retriever
@@ -12,22 +13,23 @@ class RAGPipeline:
         self._retriever = retriever
         self._llm = llm
 
-    def _find_best_excerpt(self, content: str, question: str, length: int = 200) -> str:
-        query_words = set(re.sub(r"[^\w\s]", "", question.lower()).split())
-        sentences = re.split(r"(?<=[.!?])\s+", content)
+    def _find_best_excerpt(self, content: str, question: str, length: int = 250) -> str:
+        stopwords = set(nltk_stopwords.words("english"))
+        query_words = set(re.sub(r"[^\w\s]", "", question.lower()).split()) - stopwords
 
-        best_idx = 0
-        best_overlap = -1
-        for i, sentence in enumerate(sentences):
-            words = set(re.sub(r"[^\w\s]", "", sentence.lower()).split())
-            overlap = len(words & query_words)
-            if overlap > best_overlap:
-                best_overlap = overlap
-                best_idx = i
+        best_start = 0
+        best_score = -1
+        step = 40
 
-        start = content.find(sentences[best_idx])
-        excerpt = content[max(0, start - 50): start + length]
-        return excerpt.strip() + "..."
+        for i in range(0, max(1, len(content) - length), step):
+            window = content[i:i + length]
+            words = set(re.sub(r"[^\w\s]", "", window.lower()).split())
+            score = len(words & query_words)
+            if score > best_score:
+                best_score = score
+                best_start = i
+
+        return content[best_start:best_start + length].strip() + "..."
 
     def ask(self, question: str, top_k: int = 5, min_score: float = 0.2) -> Dict[str, Any]:
         """Retrieve relevant chunks and generate an answer with source info."""
