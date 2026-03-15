@@ -12,20 +12,33 @@ class Retriever:
         self._embedder = embedder
 
     def retrieve(self, query: str, top_k: int = 5, min_score: float = 0.0) -> List[Dict[str, Any]]:
-        """Embed the query and return the top_k most similar chunks above min_score."""
-        query_vector = self._embedder.embed_query(query)
-        hits = self._index.search(query_vector, top_k=top_k)
+        """Embed the query and return the top_k most similar chunks above min_score.
 
-        return [
-            {
+        Fetches extra candidates then deduplicates by page so that overlapping
+        chunks from the same page don't crowd out results from other pages.
+        """
+        query_vector = self._embedder.embed_query(query)
+        hits = self._index.search(query_vector, top_k=top_k * 3)
+
+        seen_pages = set()
+        results = []
+        for hit in hits:
+            if hit["score"] < min_score:
+                continue
+            page = hit["metadata"].get("page", "unknown") + 1
+            if page in seen_pages:
+                continue
+            seen_pages.add(page)
+            results.append({
                 "content": hit["content"],
                 "score": hit["score"],
-                "page": hit["metadata"].get("page", "unknown") + 1,
+                "page": page,
                 "source_file": hit["metadata"].get("source_file", "unknown"),
-            }
-            for hit in hits
-            if hit["score"] >= min_score
-        ]
+            })
+            if len(results) == top_k:
+                break
+
+        return results
 
 
 import unittest

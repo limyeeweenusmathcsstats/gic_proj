@@ -1,3 +1,5 @@
+NOTE: The data changed! I was using Google's annual report until I realised that it is 99 pages which is less than 100
+
 Ask a question about the document: What was Google's earnings?
 
 Answer: The context does not contain enough information to determine Google's earnings. The context provides information on revenues, operating income, and expenses, but it does not provide a comprehensive earnings statement.
