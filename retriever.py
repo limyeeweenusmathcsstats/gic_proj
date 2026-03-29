@@ -22,6 +22,8 @@ class Retriever:
 
         seen_pages = set()
         results = []
+        
+        # Filter hits by min_score and deduplicate by page
         for hit in hits:
             if hit["score"] < min_score:
                 continue

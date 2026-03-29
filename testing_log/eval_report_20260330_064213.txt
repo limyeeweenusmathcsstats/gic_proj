@@ -1,0 +1,206 @@
+============================================================
+  EVALUATION REPORT
+  2026-03-30 06:42:13
+============================================================
+
+RETRIEVER SUMMARY
+-----------------
+Hit Rate @ 5  : 0.9167
+MRR      @ 5  : 0.6528
+NDCG     @ 5  : 0.6978
+Queries            : 12
+
+GENERATOR SUMMARY
+-----------------
+Avg Faithfulness : 4.6667
+Avg Relevance    : 4.5833
+Avg Correctness  : 4.0833
+
+============================================================
+
+PER-QUERY RETRIEVER BREAKDOWN
+-----------------------------
+Q: What was Microsoft's net income in 2024?
+   Relevant pages  : [77, 47]
+   Retrieved pages : [77, 47, 39, 41, 43, 93, 130, 80, 8, 165, 94, 108, 45, 44, 169]
+   Hit Rate        : 1.0  |  MRR: 1.0  |  NDCG: 1.0
+
+Q: What is the company's stated mission or vision according to the document?
+   Relevant pages  : [39]
+   Retrieved pages : [95, 96, 4, 142, 139, 9, 41, 16, 145, 113, 112, 32, 62, 31, 61]
+   Hit Rate        : 0.0  |  MRR: 0.0  |  NDCG: 0.0
+
+Q: What is the dividend per share declared in the most recent financial statement?
+   Relevant pages  : [60, 89]
+   Retrieved pages : [60, 89, 50, 119, 38, 68, 69, 91, 48, 43, 95, 59, 103, 39, 41]
+   Hit Rate        : 1.0  |  MRR: 1.0  |  NDCG: 1.0
+
+Q: On what date does Microsoft's fiscal year end?
+   Relevant pages  : [39, 95]
+   Retrieved pages : [153, 39, 156, 95, 82, 77, 169, 41, 108, 112, 93, 113, 43, 109, 165]
+   Hit Rate        : 1.0  |  MRR: 0.5  |  NDCG: 0.6509
+
+Q: How does Microsoft break down its research and development spending?
+   Relevant pages  : [65]
+   Retrieved pages : [51, 52, 8, 65, 4, 41, 39, 43, 30, 77, 45, 13, 94, 44, 42]
+   Hit Rate        : 1.0  |  MRR: 0.25  |  NDCG: 0.4307
+
+Q: How does Microsoft describe its cloud strategy?
+   Relevant pages  : [5, 39]
+   Retrieved pages : [39, 5, 40, 41, 6, 92, 12, 11, 62, 22, 15, 43, 51, 42, 45]
+   Hit Rate        : 1.0  |  MRR: 1.0  |  NDCG: 1.0
+
+Q: What are the geographic regions where Microsoft generates the most revenue?
+   Relevant pages  : [94]
+   Retrieved pages : [94, 39, 41, 13, 45, 93, 62, 61, 92, 42, 14, 161, 43, 44, 12]
+   Hit Rate        : 1.0  |  MRR: 1.0  |  NDCG: 1.0
+
+Q: What are the main risks Microsoft identifies in its 10-K?
+   Relevant pages  : [20, 21, 29, 31]
+   Retrieved pages : [3, 39, 18, 29, 160, 21, 149, 25, 30, 32, 27, 13, 33, 26, 23]
+   Hit Rate        : 1.0  |  MRR: 0.25  |  NDCG: 0.1681
+
+Q: What are the top three products or services by revenue, as listed in the report?
+   Relevant pages  : [94]
+   Retrieved pages : [61, 62, 94, 96, 42, 51, 56, 93, 44, 92, 40, 9, 85, 41, 16]
+   Hit Rate        : 1.0  |  MRR: 0.3333  |  NDCG: 0.5
+
+Q: What legal proceedings or regulatory challenges are mentioned in the latest filings?
+   Relevant pages  : [30, 31, 32, 87]
+   Retrieved pages : [31, 32, 30, 87, 18, 29, 160, 84, 88, 126, 144, 162, 124, 24, 15]
+   Hit Rate        : 1.0  |  MRR: 1.0  |  NDCG: 1.0
+
+Q: What partnerships or collaborations are highlighted in the document?
+   Relevant pages  : [8, 11]
+   Retrieved pages : [124, 11, 142, 18, 8, 4, 5, 32, 15, 20, 16, 23, 10, 119, 7]
+   Hit Rate        : 1.0  |  MRR: 0.5  |  NDCG: 0.6241
+
+Q: What was the date of Microsoft's most recent major acquisition, and what company was acquired?
+   Relevant pages  : [77]
+   Retrieved pages : [77, 108, 103, 112, 145, 156, 165, 166, 113, 39, 130, 16, 45, 13, 42]
+   Hit Rate        : 1.0  |  MRR: 1.0  |  NDCG: 1.0
+
+============================================================
+
+PER-QUERY GENERATOR BREAKDOWN
+-----------------------------
+Q: What was Microsoft's net income in 2024?
+   Answer          : Microsoft's net income in 2024 was $88,308 million.
+   Faithfulness    : 5  — 5
+The answer is directly supported by the context, which explicitly states "Net income 88,308" for the year ended June 3
+   Relevance       : 5  — 5
+The answer directly addresses the question by providing the specific net income of Microsoft in 2024, which is the exa
+   Correctness     : 5  — 5
+The Generated Answer conveys the same key fact as the Reference Answer, which is Microsoft's net income in 2024 being 
+
+Q: What is the company's stated mission or vision according to the document?
+   Answer          : The context does not contain enough information to answer the question. The provided text appears to be excerpts from a financial report and a plan document, but it does not mention the company's miss
+   Faithfulness    : 5  — 5
+The answer is perfectly faithful because the context does not provide any information about the company's mission or v
+   Relevance       : 5  — 5
+The answer directly addresses the question by stating that the context does not contain enough information to answer t
+   Correctness     : 1  — 1
+The Generated Answer does not convey the same key facts as the Reference Answer because it states that the context doe
+
+Q: What is the dividend per share declared in the most recent financial statement?
+   Answer          : The dividend per share declared in the most recent financial statement (Fiscal Year 2024) is $3.00.
+   Faithfulness    : 5  — 5
+The answer is directly supported by the context, specifically the table and the text that states "Cash dividends decla
+   Relevance       : 5  — 5
+The answer directly addresses the question by providing the specific dividend per share declared in the most recent fi
+   Correctness     : 5  — 5
+The Generated Answer accurately conveys the key fact from the Reference Answer, which is the total cash dividend decla
+
+Q: On what date does Microsoft's fiscal year end?
+   Answer          : The context does not contain enough information to determine the specific date on which Microsoft's fiscal year ends, only that it ends on June 30.
+   Faithfulness    : 5  — 5
+The answer is supported by the context, specifically the mention of "the year ended June 30, 2024" and "the year ended
+   Relevance       : 4  — 4
+The answer is relevant to the question as it provides some information about Microsoft's fiscal year end, although it 
+   Correctness     : 5  — 5
+The Generated Answer conveys the same key fact as the Reference Answer, which is that Microsoft's fiscal year ends on 
+
+Q: How does Microsoft break down its research and development spending?
+   Answer          : The context does not contain a detailed breakdown of Microsoft's research and development spending. However, it does mention that research and development expenses include:
+
+1. Payroll
+2. Employee ben
+   Faithfulness    : 5  — 5
+The answer is fully supported by the context, as it directly quotes and summarizes the relevant information from the t
+   Relevance       : 4  — 4
+The answer provides relevant information about the components of Microsoft's research and development spending, but it
+   Correctness     : 5  — 5
+The Generated Answer conveys the same key facts as the Reference Answer, listing the same components of research and d
+
+Q: How does Microsoft describe its cloud strategy?
+   Answer          : Microsoft describes its cloud strategy as building the Intelligent Cloud and Intelligent Edge Platform, which involves investing in high-performance and sustainable computing to meet the growing deman
+   Faithfulness    : 4  — 4
+The answer is mostly supported by the context, but it includes some minor inferences and rephrasing of the original te
+   Relevance       : 5  — 5
+The answer directly addresses the question by providing a detailed description of Microsoft's cloud strategy, includin
+   Correctness     : 5  — 5
+The Generated Answer conveys the same key facts as the Reference Answer, including Microsoft's focus on the Intelligen
+
+Q: What are the geographic regions where Microsoft generates the most revenue?
+   Answer          : The context does not provide a detailed breakdown of geographic regions beyond the United States and "Other countries". It only mentions that no sales to an individual customer or country other than t
+   Faithfulness    : 5  — 5
+The answer is perfectly faithful to the context, as it accurately reflects the information provided about Microsoft's 
+   Relevance       : 4  — 4
+The answer directly addresses the question by stating that the context does not provide a detailed breakdown of geogra
+   Correctness     : 4  — 4
+The Generated Answer conveys the key fact that the United States is a significant region for Microsoft's revenue and t
+
+Q: What are the main risks Microsoft identifies in its 10-K?
+   Answer          : The context provided does not contain enough information to fully answer the question about the main risks Microsoft identifies in its 10-K. It mentions regulatory risks, competition laws, and the ris
+   Faithfulness    : 4  — 4
+The answer is mostly supported by the context, as it mentions specific risks such as regulatory risks and competition 
+   Relevance       : 4  — 4
+The answer is relevant to the question as it discusses the risks Microsoft identifies, but it does not directly and co
+   Correctness     : 2  — 2
+The Generated Answer does not convey the same key facts as the Reference Answer, as it only mentions a few risks (regu
+
+Q: What are the top three products or services by revenue, as listed in the report?
+   Answer          : The top three products or services by revenue, as listed in the report, are:
+
+1. Server products and cloud services: $97,726 million (in 2024)
+2. Office products and cloud services: $54,875 million (i
+   Faithfulness    : 5  — 5
+The answer is perfectly faithful to the context, as it directly quotes the revenue figures for the top three products 
+   Relevance       : 5  — 5
+The answer directly addresses the question by listing the top three products or services by revenue as requested, prov
+   Correctness     : 5  — 5
+The Generated Answer accurately conveys the same key facts as the Reference Answer, listing the top three products or 
+
+Q: What legal proceedings or regulatory challenges are mentioned in the latest filings?
+   Answer          : The context mentions several legal proceedings and regulatory challenges, including:
+
+1. Claims and lawsuits against the company that may result in adverse outcomes, including significant monetary dam
+   Faithfulness    : 5  — 5
+The answer is fully supported by the context, as it directly quotes and references specific sections of the text to id
+   Relevance       : 5  — 5
+The answer directly addresses the question by providing a detailed list of the legal proceedings and regulatory challe
+   Correctness     : 4  — 4
+The Generated Answer conveys most of the key facts mentioned in the Reference Answer, including claims and lawsuits, r
+
+Q: What partnerships or collaborations are highlighted in the document?
+   Answer          : The document highlights the following partnerships or collaborations:
+
+1. Microsoft Partner Network
+2. Microsoft Cloud Solution Provider Program with systems integrators, managed services providers, o
+   Faithfulness    : 4  — 4
+The answer is mostly supported by the context, with all the mentioned partnerships and collaborations being present in
+   Relevance       : 5  — 5
+The answer directly addresses the question by providing a list of specific partnerships and collaborations mentioned i
+   Correctness     : 4  — 4
+The Generated Answer conveys most of the key facts as the Reference Answer, including the Microsoft Partner Network, C
+
+Q: What was the date of Microsoft's most recent major acquisition, and what company was acquired?
+   Answer          : The context does not contain enough information to determine the date of Microsoft's most recent major acquisition and the company acquired, except that it mentions the acquisition of Activision Blizz
+   Faithfulness    : 4  — 4
+The answer is mostly supported by the context, as it mentions the acquisition of Activision Blizzard and the date "Jul
+   Relevance       : 4  — 4
+The Answer partially addresses the Question by mentioning the acquisition of Activision Blizzard, but it does not prov
+   Correctness     : 4  — 4
+The Generated Answer conveys the key fact that Microsoft acquired Activision Blizzard, and it also mentions the date J
+
+============================================================

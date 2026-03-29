@@ -30,10 +30,21 @@ class RAGPipeline:
         candidates = self._retriever.retrieve(question, top_k=top_k * 3, min_score=min_score)
         results = self._rerank(question, candidates, top_k) if candidates else candidates
 
+        chunks = [
+            {
+                "page": r["page"],
+                "source_file": r["source_file"],
+                "score": round(r["score"], 4),
+                "content": r["content"],
+            }
+            for r in candidates
+        ]
+
         if not results:
             return {
                 "answer": "No relevant content found in the document for this question.",
                 "sources": [],
+                "chunks": chunks,
                 "confidence": 0.0,
             }
 
@@ -55,6 +66,7 @@ class RAGPipeline:
         return {
             "answer": answer,
             "sources": sources,
+            "chunks": chunks,
             "confidence": round(confidence, 4),
         }
 
@@ -83,6 +95,7 @@ class TestRAGPipeline(unittest.TestCase):
 
         self.assertIn("answer", output)
         self.assertIn("sources", output)
+        self.assertIn("chunks", output)
         self.assertIn("confidence", output)
 
     def test_ask_no_results_returns_fallback(self):
@@ -90,6 +103,7 @@ class TestRAGPipeline(unittest.TestCase):
         output = pipeline.ask("Some question")
         self.assertEqual(output["confidence"], 0.0)
         self.assertEqual(output["sources"], [])
+        self.assertEqual(output["chunks"], [])
 
 
 if __name__ == "__main__":

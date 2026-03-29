@@ -31,10 +31,8 @@ class DocumentProcessor:
         if not path.exists():
             raise FileNotFoundError(f"PDF file not found: {path}")
 
-        print(f"Loading PDF: {path.name}")
         loader = PDFPlumberLoader(str(pdf_path))
         pages = loader.load()
-        print(f"  Loaded {len(pages)} pages")
 
         for page_doc in pages:
             page_doc.metadata["source_file"] = path.name
@@ -45,8 +43,6 @@ class DocumentProcessor:
         for i, chunk in enumerate(chunks):
             chunk.metadata["chunk_index"] = i
 
-        print(f"  Split into {len(chunks)} chunks "
-              f"(chunk_size={self.chunk_size}, overlap={self.chunk_overlap})")
         return chunks
 
 
